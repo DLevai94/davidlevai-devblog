@@ -11,6 +11,7 @@ module.exports = {
     siteUrl: config.siteUrl + pathPrefix,
     title: config.siteTitle,
     twitterHandle: config.twitterHandle,
+    instagramHandle: config.instagramHandle,
     description: config.siteDescription,
     keywords: ['Video Blogger'],
     canonicalUrl: config.siteUrl,
@@ -18,7 +19,7 @@ module.exports = {
     author: {
       name: config.author,
       minibio: `
-        <strong>egghead</strong> is the premier place on the internet for 
+        <strong>Dávid Lévai</strong> is the premier place on the internet for
         experienced developers to enhance their skills and stay current
         in the fast-faced field of web development.
       `,
@@ -30,7 +31,7 @@ module.exports = {
     },
     social: {
       twitter: config.twitterHandle,
-      fbAppID: '',
+      instagram: config.instagramHandle,
     },
   },
   plugins: [
@@ -88,7 +89,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `GOOGLE_ID`,
+        trackingId: `UA-50359249-4`,
       },
     },
     {
@@ -128,7 +129,7 @@ module.exports = {
                   edges {
                     node {
                       excerpt(pruneLength: 250)
-                      fields { 
+                      fields {
                         slug
                         date
                       }
