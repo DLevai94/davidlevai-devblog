@@ -13,7 +13,16 @@ module.exports = {
     twitterHandle: config.twitterHandle,
     instagramHandle: config.instagramHandle,
     description: config.siteDescription,
-    keywords: ['Video Blogger'],
+    keywords: [
+      `coding`,
+      `react`,
+      `javascript`,
+      `nextjs`,
+      `gatsby`,
+      `serverless`,
+      `freelancing`,
+      `freelancer programmer`,
+    ],
     canonicalUrl: config.siteUrl,
     image: config.siteLogo,
     author: {
