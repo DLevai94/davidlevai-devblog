@@ -2,7 +2,16 @@ import React from 'react'
 import { css } from '@emotion/core'
 import { useTheme } from './Theming'
 
-import { TwitterShareButton, FacebookShareButton } from 'react-share'
+import {
+  TwitterShareButton,
+  FacebookShareButton,
+  LinkedinShareButton,
+  FacebookMessengerShareButton,
+  TwitterIcon,
+  FacebookIcon,
+  FacebookMessengerIcon,
+  LinkedinIcon,
+} from 'react-share'
 
 const Share = ({ url, title, twitterHandle }) => {
   const theme = useTheme()
@@ -39,10 +48,36 @@ const Share = ({ url, title, twitterHandle }) => {
         url={url}
         quote={title}
         via={twitterHandle.split('@').join('')}
+        css={css`
+          cursor: pointer;
+          margin-right: 8px;
+        `}
       >
-        Twitter
+        <TwitterIcon size={32} round={true} />
       </TwitterShareButton>
+      <LinkedinShareButton
+        url={url}
+        quote={title}
+        via={twitterHandle.split('@').join('')}
+        css={css`
+          cursor: pointer;
+          margin-right: 8px;
+        `}
+      >
+        <LinkedinIcon size={32} round={true} />
+      </LinkedinShareButton>
       <FacebookShareButton
+        url={url}
+        quote={title}
+        via={twitterHandle.split('@').join('')}
+        css={css`
+          cursor: pointer;
+          margin-right: 8px;
+        `}
+      >
+        <FacebookIcon size={32} round={true} />
+      </FacebookShareButton>
+      <FacebookMessengerShareButton
         url={url}
         quote={title}
         via={twitterHandle.split('@').join('')}
@@ -50,8 +85,8 @@ const Share = ({ url, title, twitterHandle }) => {
           cursor: pointer;
         `}
       >
-        Facebook
-      </FacebookShareButton>
+        <FacebookMessengerIcon size={32} round={true} />
+      </FacebookMessengerShareButton>
     </div>
   )
 }

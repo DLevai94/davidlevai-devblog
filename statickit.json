@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "addToConvertKit": {
+      "app": "convertkit",
+      "type": "applyTags"
+    }
+  }
+}

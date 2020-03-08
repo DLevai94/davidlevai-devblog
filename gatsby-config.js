@@ -28,9 +28,7 @@ module.exports = {
     author: {
       name: config.author,
       minibio: `
-        <strong>Dávid Lévai</strong> is the premier place on the internet for
-        experienced developers to enhance their skills and stay current
-        in the fast-faced field of web development.
+        Hi! 👋 I'm Dávid and I write about coding, freelancing & productivity.
       `,
     },
     organization: {
@@ -49,6 +47,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/blog`,
         name: 'blog',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/assets`,
+        name: `assets`,
       },
     },
     {

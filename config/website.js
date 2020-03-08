@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: '/',
-  siteTitle: 'Coding, Freelancing & Productivity',
-  siteTitleAlt: 'Dávid Lévai',
+  siteTitle: 'Dávid Lévai',
+  siteTitleAlt: 'Coding, Freelancing, Productivity',
   siteTitleShort: 'Dávid Lévai',
   siteUrl: 'https://davidlevai.com',
   siteLanguage: 'en',

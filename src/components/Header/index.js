@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => {
         flex-shrink: 0;
         background: none;
         padding: 20px 0;
-        background: ${theme.colors.headerBg};
+        /* background: ${theme.colors.headerBg}; */
       `}
     >
       <Container noVerticalPadding>
@@ -33,9 +33,10 @@ const Header = ({ siteTitle }) => {
             to="/"
             aria-label="go to homepage"
             css={css`
-              color: white;
+              color: ${theme.colors.primary};
+              font-weight: 800;
               &:hover {
-                color: white;
+                color: #000;
                 text-decoration: none;
               }
             `}
@@ -50,7 +51,7 @@ const Header = ({ siteTitle }) => {
               align-items: center;
               a {
                 text-decoration: none;
-                color: ${theme.colors.white};
+                color: ${theme.colors.primary};
                 margin-left: 16px;
                 margin-right: 16px;
               }
