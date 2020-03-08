@@ -1,10 +1,11 @@
 ---
-slug: demo-05
-date: 2018-08-22
-title: 'Do Less Better'
-description: 'Vestibulum quis bibendum nulla, dignissim faucibus orci. Sed purus nisl, hendrerit id suscipit sit amet.'
+slug: javascript-awesome-console
+date: 2020-03-01
+title: 'console.* in Javascript'
+description: "Did you now that browser console is more powerful tool than just console.logging? Let's take a look at some awesome other functions."
 published: true
 banner: './banner.png'
+tags: ['javascript', 'coding', 'development', 'productivity']
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus sem non eros semper posuere. Quisque scelerisque non diam in fringilla. Praesent dignissim eros vel urna tincidunt pharetra. Fusce cursus, est quis vestibulum facilisis, elit diam convallis orci, eu convallis metus leo vitae massa. Mauris id nisi ut erat auctor fermentum. Sed purus nisl, hendrerit id suscipit sit amet, consectetur ut magna. Donec cursus accumsan lectus vel porta. Proin ac mollis arcu. Integer nec dictum sapien, dignissim semper dui. Quisque porta ipsum sit amet lorem feugiat tincidunt. Nam vel purus dolor. Donec semper tortor lacus, sed blandit sapien rutrum id. Fusce gravida tortor ultrices magna auctor, at bibendum est pellentesque. Vivamus porttitor ultrices varius.
