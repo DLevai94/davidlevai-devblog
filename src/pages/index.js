@@ -23,18 +23,21 @@ const Hero = ({ minibio, image }) => {
       <Container
         css={css`
           display: flex;
-          flex-direction: row;
+          flex-direction: column;
           padding: 0;
+          @media (min-width: 570px) {
+            flex-direction: row;
+          }
         `}
       >
         <Img
-          style={{
-            marginRight: rhythm(2),
-            marginBottom: 0,
-            minWidth: 250,
-            alignSelf: 'flex-end',
-            justifySelf: 'flex-end',
-          }}
+          css={css`
+            margin-right: ${rhythm(2)};
+            margin-bottom: 0;
+            min-width: 250px;
+            align-self: 'flex-end';
+            justify-self: 'flex-end';
+          `}
           fluid={image}
           alt="Dávid Lévai"
         />
