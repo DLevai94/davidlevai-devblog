@@ -11,6 +11,7 @@ keywords: ['freelancing', 'productivity', 'business', 'remote work', 'corona vir
 The work culture just evolved like 5 years in the last 2 weeks. It’s crazy and not everyone’s ready for that. In this post, I’ve summarised my experiences working with 10+ remote teams and clients in the last half-decade.  In the following lines, you’ll find some help on how to maintain human contacts, how to be productive, and what tools & apps I recommend for your team to maximize efficiency.
 
 ## Meetings, chat
+
 **No one likes meetings.** Especially meaningless chit-chats about nothing. So home office is a great opportunity for you & your team to practice **effective meetings**. The most important point is to schedule meetings ahead of time for everyone to arrive prepared, because this way, all meetings will become more effective.
 I highly recommend to do so-called **Stand ups.** These meetings work as an overview of what your team did since the last stand up meeting and what are the next steps. Here, you should talk about how are the projects state, this way everyone will get a response to their questions in time, and the team lead will know about possible blocking issues or any other problems. A stand up meeting should not take more time than **1.5 minutes/team member**, so you can easily do this **at least 3 times/week**.
 *Ps.: These meetings are called “stand up” because, in a normal environment, every member is standing to be as quick as possible and maximize focus on the meeting itself.*
@@ -20,6 +21,7 @@ The other meetings you should be aware of are **Retrospectives**. In a retrospec
 **Tools I recommend:** [Google Meet/Calendar](https://calendar.google.com), [Zoom](https://zoom.us), [Slack](https://slack.com), [Discord](https://discord.gg), [Steam](https://store.steampowered.com/)
 
 ## We are not robots 🤖
+
 It’s really important to **track the time** everyone spent on work. It mainly helps with invoicing, but if no one gets paid by worked hours, it still a great idea to see how you spend your home office time. It’s really easy to just *quickly* do the laundry, walk the dog, cook a 3-course meal, watch 1 episode of Friends, etc. and suddenly find yourself in the middle of the night, and you finished nothing today. *(Trust me, I know about this. I’m doing this time to time…)*
 So I recommend you to **set up a time tracking tool and learn the habit of tracking** everything you do. It not only helps you know how much time you spent bingeing YouTube videos, but it subconsciously **motivates you** to be productive.
 It is really easy to find yourself at the other end of the spectrum too. If you are an entrepreneur, it won’t be a surprise if you find yourself working 12-16 hours/day from time to time. *(Trust me, I know about this. I’m doing this really often…)*
@@ -27,12 +29,14 @@ It is really easy to find yourself at the other end of the spectrum too. If you 
 **Tools I recommend:** [Clockify](https://clockify.me), [Toggl](https://toggl.com)
 
 ## Be clear with tasks
+
 It’s easy to just briefly write 2 sentences about a task, like “Change text color to red.”, but nobody’s gonna understand that. Make sure, that the tasks you’re writing to a project management tool is clear and understandable for a 7 year old kid, who just barely knows what a company is. Sure, it’s definitely more time to write, but it’s a lot of headaches & unnecessary communications saved.
 Always add due dates to tasks to have an agreement about what is the latest deadline. Use labels/subtasks to categorise and break down complex tasks.
 
 **Tools I recommend:** [Trello](https://trello.com), [Asana](https://asana.com), [Clickup](https://clickup.com), [Google Drive](https://drive.google.com), [Dropbox](https://dropbox.com)
 
 ## Companies did software donation for COVID-19 (The tools that you came for)
+
 There’re a sh*t ton of tools ready to help you work remotely, but it’s easy to lose focus and find yourself in the “tool hell”. You don’t need to use and try out new productivity/chat/file-sharing/meeting/time logging apps every month or so. It’s easier for everyone to use only the necessary apps and integrate them into one single source of truth. Ex. Slack or Discord has some nice integrations with hundreds of other tools.
 For your fortune, there’re a lot of great tech companies decided to **help teams & people who just went to home office** by giving their solution for **free** for some months.
 
@@ -41,6 +45,7 @@ For your fortune, there’re a lot of great tech companies decided to **help tea
 A great source to check out some other companies who did charities like this is [Software Donation](https://softwaredonation.org/).
 
 ## Summary
+
 Do some **stand up meetings**. At least 3 times a week to have an overview about the current situation and tasks. Do **retrospective calls**, where the team analyzes’ the last few weeks process and results. This way you all make sure what everybody needs to maintain productivity. Do not forget that you’re **still humans**, just on different places, so take your time for some human contacts, like playing some video games or chatting about books, Netflix series, etc. **Use the** remote work, project management, time logging, and productivity **tools wisely**. You don’t need to do a meeting for everything if you have Slack/Discord or any other chat applications. Be clear with task descriptions and use due dates, Gantt charts to manage product timeline. And log your time to have an overview about how do you spend your days.
 
 If you have some questions or just want to add something to this, feel free to reach out to me at david@davidlevai.com. If you found this article helpful, please share it with others, or share the Instagram post about this blog.
