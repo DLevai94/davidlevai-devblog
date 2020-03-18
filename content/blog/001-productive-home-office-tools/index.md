@@ -1,11 +1,11 @@
 ---
-slug: 5-things-i-dislike-about-being-a-freelancer
-date: 2020-03-06
-title: '5 Things I Dislike About Being a Freelancer'
-description: "Today, we're taking a look at what's not so great about working remotely and being your own boss."
+slug: productive-remote-teamwork-tools
+date: 2020-03-16
+title: 'Productive Remote Teamwork For Product Teams + 5 Free Awesome Tools'
+description: "The work culture just evolved like 5 years in the last 2 weeks. It’s crazy and not everyone’s ready for that. In this post, I’ve summarised my experiences working with  10+ remote teams and clients in the last half-decade. I hope there’s something for you to take away."
 published: true
 banner: './banner.png'
-tags: ['freelancing', 'productivity', 'business', 'remote-work']
+keywords: ['freelancing', 'productivity', 'business', 'remote work', 'corona virus', 'covid19', 'home office']
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus sem non eros semper posuere. Quisque scelerisque non diam in fringilla. Praesent dignissim eros vel urna tincidunt pharetra. Fusce cursus, est quis vestibulum facilisis, elit diam convallis orci, eu convallis metus leo vitae massa. Mauris id nisi ut erat auctor fermentum. Sed purus nisl, hendrerit id suscipit sit amet, consectetur ut magna. Donec cursus accumsan lectus vel porta. Proin ac mollis arcu. Integer nec dictum sapien, dignissim semper dui. Quisque porta ipsum sit amet lorem feugiat tincidunt. Nam vel purus dolor. Donec semper tortor lacus, sed blandit sapien rutrum id. Fusce gravida tortor ultrices magna auctor, at bibendum est pellentesque. Vivamus porttitor ultrices varius.

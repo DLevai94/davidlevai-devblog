@@ -75,6 +75,8 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-emotion',
     'gatsby-plugin-catch-links',
+    'gatsby-plugin-instagram-embed',
+    'gatsby-remark-embedder',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-manifest',
