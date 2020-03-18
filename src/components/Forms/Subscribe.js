@@ -127,7 +127,7 @@ const SignUp = ({ theme }) => {
                 aria-label="your first name"
                 aria-required="false"
                 name="first_name"
-                placeholder="Jane"
+                placeholder="David"
                 type="text"
               />
             </label>
@@ -153,7 +153,7 @@ const SignUp = ({ theme }) => {
                 aria-label="your email address"
                 aria-required="true"
                 name="email"
-                placeholder="jane@acme.com"
+                placeholder="david@davidlevai.com"
                 type="email"
                 ref={register({ required: true })}
               />
