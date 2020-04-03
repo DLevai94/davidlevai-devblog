@@ -102,10 +102,14 @@ module.exports = {
         ],
       },
     },
+
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: `UA-50359249-4`,
+        trackingIds: [
+          'UA-50359249-4', // Google Analytics / GA
+          'AW-747503665', // Google Ads / Adwords / AW
+        ],
       },
     },
     {

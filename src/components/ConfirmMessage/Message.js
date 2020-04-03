@@ -4,7 +4,6 @@ import styled from '@emotion/styled'
 import Markdown from 'react-markdown'
 import Link from '../Link'
 import { bpMaxSM } from '../../lib/breakpoints'
-
 export default ({
   illustration,
   title,
