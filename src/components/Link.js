@@ -1,5 +1,6 @@
 import React from 'react'
 import GatsbyLink from 'gatsby-link'
+import { OutboundLink } from 'gatsby-plugin-google-gtag'
 
 const Link = ({ children, to, ...other }) => {
   const internal = /^\/(?!\/)/.test(to)
@@ -13,9 +14,9 @@ const Link = ({ children, to, ...other }) => {
   }
 
   return (
-    <a href={to} {...other}>
+    <OutboundLink href={to} target="_blank" {...other}>
       {children}
-    </a>
+    </OutboundLink>
   )
 }
 
