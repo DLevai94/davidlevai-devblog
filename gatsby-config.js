@@ -77,6 +77,8 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-plugin-instagram-embed',
     'gatsby-remark-embedder',
+    { resolve: `gatsby-plugin-netlify-cms`, options: { publicPath: 'editz' } },
+    `gatsby-plugin-netlify`,
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-manifest',
