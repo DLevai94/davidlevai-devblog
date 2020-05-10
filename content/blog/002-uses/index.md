@@ -74,6 +74,7 @@ keywords: ['freelancing', 'productivity', 'business', 'uses', 'vscode', 'macbook
 * Daily communication tools is Slack for years
 * Creating webshops with Shopify
 * Use ConvertKit for emailing
+* Tracking time with Clockify now, used Toggl before
 
 ### Photo, Video
 * Editing videos with Final Cut Pro X
@@ -87,6 +88,7 @@ keywords: ['freelancing', 'productivity', 'business', 'uses', 'vscode', 'macbook
 * I used Bear, Evernote and Apple Notes for long time.
 * Research: Roam Research
 * Fantastical is my calendar of choice
+* Todoist is love, Todoist is life
 
 ### Project Management
 * Jira for now, but I always like to experiment with new ones.
