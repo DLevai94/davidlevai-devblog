@@ -8,9 +8,9 @@ module.exports = {
   siteLogo: 'images/logo.png',
   siteDescription: 'A blog about coding, freelancing, business & productivity.',
   author: 'David Lévai',
-  organization: 'Classy Digital Agency',
+  organization: 'Pier 418',
 
-  userTwitter: '@davidlevaicodes',
+  userTwitter: '@iamdavidlevai',
   ogSiteName: 'Dávid Lévai', // Facebook Site Name
   ogLanguage: 'en_US',
   googleAnalyticsID: 'UA-50359249-4',
@@ -20,10 +20,10 @@ module.exports = {
   backgroundColor: '#2b2e3c',
 
   // Social component
-  twitter: 'https://twitter.com/davidlevaicodes/',
-  twitterHandle: '@davidlevaicodes',
-  instagram: 'https://instagram.com/davidlevai.codes',
-  instagramHandle: '@davidlevai.codes',
+  twitter: 'https://twitter.com/iamdavidlevai/',
+  twitterHandle: '@iamdavidlevai',
+  instagram: 'https://instagram.com/iamdavidlevai',
+  instagramHandle: '@iamdavidlevai',
   github: 'https://github.com/dlevai94/',
-  linkedin: 'https://linkedin.com/in/dlevai94',
+  linkedin: 'https://linkedin.com/in/iamdavidlevai',
 }
