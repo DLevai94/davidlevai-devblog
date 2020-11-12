@@ -33,7 +33,6 @@
     "gatsby-plugin-meta-redirect": "^1.1.1",
     "gatsby-plugin-netlify": "^2.2.1",
     "gatsby-plugin-netlify-cms": "^4.2.2",
-    "gatsby-plugin-offline": "^3.0.37",
     "gatsby-plugin-react-helmet": "^3.1.23",
     "gatsby-plugin-sharp": "^2.4.7",
     "gatsby-plugin-sitemap": "^2.3.1",
@@ -69,7 +68,7 @@
     "prettier": "1.19.1"
   },
   "scripts": {
-    "build": "gatsby build",
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
     "develop": "gatsby develop",
     "start": "serve public/",
     "now-build": "npm run build"
