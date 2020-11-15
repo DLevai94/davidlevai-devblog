@@ -61,6 +61,7 @@ module.exports = {
       options: {
         extensions: ['.mdx', '.md', '.markdown'],
         gatsbyRemarkPlugins: [
+          `gatsby-remark-embedder`,
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -76,7 +77,6 @@ module.exports = {
     'gatsby-plugin-emotion',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-instagram-embed',
-    'gatsby-remark-embedder',
     { resolve: `gatsby-plugin-netlify-cms`, options: { publicPath: 'editz' } },
     `gatsby-plugin-netlify`,
     'gatsby-plugin-react-helmet',
