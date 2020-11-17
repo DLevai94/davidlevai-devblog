@@ -1,13 +1,15 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXRenderer } from 'gatsby-plugin-mdx'
 import SEO from 'components/SEO'
 import { css } from '@emotion/core'
 import Container from 'components/Container'
 import Layout from '../components/Layout'
 import { fonts } from '../lib/typography'
 import Share from '../components/Share'
+import Signature from '../components/signature'
+import { useTheme } from 'components/Theming'
 import config from '../../config/website'
 import { bpMaxSM } from '../lib/breakpoints'
 
@@ -19,6 +21,7 @@ export default function Post({
   const date = mdx.frontmatter.date
   const title = mdx.frontmatter.title
   const banner = mdx.frontmatter.banner
+  const theme = useTheme()
 
   return (
     <Layout site={site} frontmatter={mdx.frontmatter}>
@@ -78,7 +81,19 @@ export default function Post({
         </Container>
         {/* <SubscribeForm /> */}
       </article>
-      <Container noVerticalPadding>
+      <Container
+        css={css`
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        `}
+      >
+        <Signature
+          css={css`
+            color: ${theme.colors.text};
+            width: 14rem;
+          `}
+        />
         <Share
           url={`${config.siteUrl}/${mdx.frontmatter.slug}/`}
           title={title}
